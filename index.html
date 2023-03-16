@@ -1,0 +1,51 @@
+<head>
+    <title>Conky Clunkr</title>
+    <link rel="icon" type="image/x-icon" href="conky2.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <img src="img/logo.png">
+    </div>
+
+    <div id="game-text">
+        <h1 id="cookieCount">
+        0
+        </h1>
+    
+        <h2>
+        Conkies Per Second: <span id="cps">0</span>
+        </h2>
+    
+        <p>
+        Fingers: <span id="fingerCount">0</span>
+        </p>
+    
+        <p>
+        Grandmas: <span id="grandmaCount">0</span>
+        </p>
+    </div>
+
+    <div>
+        <button onclick="addCookie()">
+        <img src="img/conky.png">
+        </button>
+    </div>
+
+    <div id="upgrade-buttons">
+        <button onclick="buyFinger()" id="fingerButton" disabled>
+        <p>
+        10
+        </p>
+        <img class="upgrade" src="img/finger.png">
+        </button>
+        <button onclick="buyGrandma()" id="grandmaButton" disabled>
+        <p>
+        100
+        </p>
+        <img class="upgrade" src="img/gramma.png">
+        </button>
+    </div>
+</body>

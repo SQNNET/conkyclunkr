@@ -1,0 +1,51 @@
+body {
+background-image: url("img/background.png");
+background-repeat: repeat;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+}
+
+#header img {
+    height: 100%
+}
+
+#game-text {
+    background-color: white;
+}
+
+img {
+width: 200px;
+}
+
+.upgrade {
+width: 50px;
+height: 50px;
+}
+
+div {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+button p {
+color: black;
+font-weight: bold;
+font-size: 20pt;
+}
+
+button img {
+filter: grayscale(0%);
+}
+
+button:disabled {
+background-color: darkgray;
+}
+
+button:disabled img {
+filter: grayscale(100%);
+}
